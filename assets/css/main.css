@@ -4,31 +4,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
 
-}
-
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.first {
-    grid-area: 2 / 2 / 4 / 4;
-}
-
-.second {
-    grid-area: 2 / 5 / 4 / 7;
-}
-
-.third {
-    grid-area: 5 / 2 / 7 / 4;
-}
-
-.fourth {
-    grid-area: 5 / 5 / 7 / 7;
 }
 
 .title {
@@ -42,14 +19,77 @@ body {
     color: white;
     text-align: center;
 }
- .row{
-     text-align: center;
-     margin-left: 300px;
- }
 
-.card{
-    color:black;
+.row {
+    text-align: center;
 }
-.placement{
-    margin-left: 200px;
+
+.jumbotron-fluid {
+    border-radius: 20px !important;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(52, 58, 64);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    text-align: left !important;
+}
+
+.marg {
+    margin-top: -15px
+}
+
+.footer-font {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.footer-font:hover {
+    color: #E9CD9A !important;
+}
+
+.list-group:hover {
+    color: #E9CD9A !important;
+}
+
+.espace {
+    margin-top: 20px;
+}
+
+/*Responsive Smartphone*/
+
+@media only screen and (max-width: 760px) {
+    .gap {
+        padding-bottom: 20px;
+    }
+
+    footer {
+        position: relative;
+        padding-bottom: 1px;
+    }
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1280px) {
+    .gap {
+        padding-bottom: 20px;
+    }
+
+    footer {
+        position: absolute;
+        padding-bottom: 1px;
+    }
+
 }

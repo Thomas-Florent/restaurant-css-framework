@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/carte.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/pizza.png">
     <title>Accueil</title>
 </head>
 
@@ -23,57 +25,80 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Accueil
+                        <a class="nav-link hover" href="index.html">Accueil
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="carte.html">Carte</a>
+                        <a class="nav-link hover" href="carte.html">Carte</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="photos.html">Photos</a>
+                        <a class="nav-link hover" href="photos.html">Photos</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="restaurants.html">Restaurants</a>
+                        <a class="nav-link hover" href="restaurants.html">Restaurants</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link hover" href="contact.html">Contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a target="_blank" rel="noopener" rel="noreferrer" class="nav-link" href="#">
+                        <a rel="noopener" rel="noreferrer" class="nav-link" href="#">
                             <i class="fab fa-facebook-f"></i> Facebook
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a target="_blank" class="nav-link" href="#">
+                        <a class="nav-link" href="#">
                             <i class="fab fa-instagram"></i> Instagram</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <!--/.Navbar -->
+        <p class="title">Let's Pizza !</p>
     </header>
 
-    <p class="title">Let's Pizza !</p>
+    <main>
+        <article>
+            <div class="container">
+                <div id="MainMenu">
+                    <div class="list-group">
+                        <a href="#sub" class="list-group-item list-group-item-success" data-toggle="collapse"
+                            data-parent="#MainMenu">Nos pizzas <i class="fas fa-arrow-down"></i><span
+                                class="badge badge-primary badge-pill right">3</span></a>
+                        <div class="collapse " id="sub">
+                            <a href="#" class="list-group-item left" data-parent="#SubMenu1"><i
+                                    class="fas fa-arrow-right"></i> Jambon</a>
+                            <a href="#" class="list-group-item left" data-parent="#SubMenu1"><i
+                                    class="fas fa-arrow-right"></i> 4 Fromages</a>
+                            <a href="#" class="list-group-item left" data-parent="#SubMenu1"><i
+                                    class="fas fa-arrow-right"></i> Pepperoni</a>
+                        </div>
+                    </div>
 
-    <section class="grid-container">
-        <div class="first">
-            
+                    <div class="espace">
+                        <a href="#sub2" class="list-group-item list-group-item-success" data-toggle="collapse"
+                            data-parent="#MainMenu">Nos desserts <i class="fas fa-arrow-down"></i><span
+                                class="badge badge-primary badge-pill right">2</span></a>
+                        <div class="collapse" id="sub2">
+                            <a href="#" class="list-group-item left"><i class="fas fa-arrow-right"></i> Tiramisu</a>
+                            <a href="#" class="list-group-item left"><i class="fas fa-arrow-right"></i> Panna cotta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p><a class="footer-font" href="#">Vie privée</a> - <a class="footer-font" href="@">Conditions
+                            générales</a> - © 2019 Site Web</a></p>
+                </div>
+            </div>
         </div>
-        <div class="second">
-
-        </div>
-        <div class="third">
-
-        </div>
-        <div class="fourth">
-
-        </div>
-    </section>
-
-
-
+    </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
