@@ -5,6 +5,10 @@
     border-radius: 0.3rem;
 }
 
+footer{
+    bottom: 0;
+    position: fixed;
+}
 
 @media only screen and (max-width: 760px) {
     .gap {
@@ -20,7 +24,7 @@
     }
 
     footer {
-        position: fixed;
+        position: relative;
         padding-bottom: 1px;
     }
     article{
@@ -35,7 +39,7 @@
     }
 
     footer {
-        position: absolute;
+        position: relative;
         padding-bottom: 1px;
     }
 

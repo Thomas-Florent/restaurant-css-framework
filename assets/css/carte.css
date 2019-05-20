@@ -27,8 +27,9 @@ footer {
     }
 
     footer {
-        position: absolute;
+        position: fixed;
         padding-bottom: 1px;
     }
 
 }
+
