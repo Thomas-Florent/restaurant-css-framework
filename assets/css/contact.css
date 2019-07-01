@@ -24,7 +24,7 @@ footer{
     }
 
     footer {
-        position: relative;
+        position: absolute;
         padding-bottom: 1px;
     }
     article{
@@ -39,7 +39,7 @@ footer{
     }
 
     footer {
-        position: relative;
+        position: absolute;
         padding-bottom: 1px;
     }
 
