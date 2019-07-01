@@ -1,3 +1,11 @@
+img {
+    border: white 2px solid !important;
+}
+
+footer {
+    position: relative !important;
+}
+
 /*Responsive Smartphone*/
 
 @media only screen and (max-width: 760px) {
@@ -34,8 +42,9 @@
 
 img {
     margin-right: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 10px;
+    border: white 2px solid;
 }
 
 .color-nav {
